@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E7369E2F-9881-4369-80E5-8AAC417BF987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{5E1A53E5-7FAD-4211-B55B-3EF3877A493A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{231AA055-F747-414E-BD86-94CDF23971CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5B7166E0-004E-4393-9F51-10F8AC576A1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{0323DCBD-4D2E-4B13-A125-A43A6B9EC293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MovieApi.Domain\MovieApi.Domain.csproj", "{6B2A9A95-E82B-497E-8BA8-626F18B67F21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B2A9A95-E82B-497E-8BA8-626F18B67F21} = {E7369E2F-9881-4369-80E5-8AAC417BF987}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B2A9A95-E82B-497E-8BA8-626F18B67F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2A9A95-E82B-497E-8BA8-626F18B67F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2A9A95-E82B-497E-8BA8-626F18B67F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2A9A95-E82B-497E-8BA8-626F18B67F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
